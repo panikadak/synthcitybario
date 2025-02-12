@@ -38,7 +38,8 @@ module.exports = (env, argv) => {
     plugins: [
       new HtmlWebpackPlugin({
         template: './index.html',
-        inject: true
+        inject: true,
+        minify: false
       }),
       new CopyWebpackPlugin({
         patterns: [
