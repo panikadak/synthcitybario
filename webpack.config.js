@@ -5,9 +5,9 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 module.exports = {
   entry: './src/index.js',
   output: {
-    path: path.resolve(__dirname, 'dist'),
+    path: path.resolve(__dirname, 'docs'),
     filename: 'main.[contenthash].js',
-    publicPath: './',
+    publicPath: '',
     clean: true
   },
   module: {
@@ -55,5 +55,12 @@ module.exports = {
         }
       ]
     })
-  ]
+  ],
+  devServer: {
+    static: {
+      directory: path.join(__dirname, 'docs'),
+    },
+    compress: true,
+    port: 8080
+  }
 };
