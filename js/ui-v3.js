@@ -128,22 +128,22 @@ window.onload = function() {
       else {
         // logo
         window.setColor('g1');
-        window.write('                      __  .__           .__  __        ', 0, 0, function() {
+        window.write('                   ___  .__           .__  __        ', 0, 0, function() {
           window.newLine();
           window.setColor('g1');
           window.write('  _________.__. _____/  |_|  |__   ____ |__|/  |_ ___.__.', 0, 0, function() {
             window.newLine();
             window.setColor('g2');
-            window.write(' /  ___<   |  |/    \\   __\\  |  \\_/ ___\\|  \\   __<   |  |', 0, 0, function() {
+            window.write(' /  ___/   |  |/    \\   __\\  |  \\_/ ___\\|  \\   __/   |  |', 0, 0, function() {
               window.newLine();
               window.setColor('g3');
-              window.write(' \\___ \\ \\___  |   |  \\  | |   Y  \\  \\___|  ||  |  \\___  |', 0, 0, function() {
+              window.write(' \\___ \\    ___/   |  \\  | |   Y  \\  \\___|  ||  |  \\___  |', 0, 0, function() {
                 window.newLine();
                 window.setColor('g4');
-                window.write('/____  >/ ____|___|  /__| |___|  /\\___  >__||__|  / ____|', 0, 0, function() {
+                window.write('/____  >  /  |___|  /__| |___|  /\\___  >__||__|  / ____|', 0, 0, function() {
                   window.newLine();
                   window.setColor('g5');
-                  window.write('     \\/ \\/         \\/          \\/     \\/          \\/     ', 0, 0, function() {
+                  window.write('     \\/\\/          \\/          \\/     \\/          \\/     ', 0, 0, function() {
                     window.newLine();
                     window.newLine();
                     window.setColor('g1');
