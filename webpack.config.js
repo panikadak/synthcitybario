@@ -46,6 +46,10 @@ module.exports = (env, argv) => {
             from: 'css',
             to: 'css'
           },
+          {
+            from: 'js',
+            to: 'js'
+          },
           { 
             from: 'img',
             to: 'img'
